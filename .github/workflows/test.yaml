@@ -24,11 +24,11 @@ jobs:
     - name: Build the image and push it if `NO_PUSH` disabled
       uses: jupyterhub/repo2docker-action@master
       with: # make sure username & password/token matches your registry
-        NO_PUSH: "true"
+        # NO_PUSH: "true"
         DOCKER_REGISTRY: "quay.io"
 
         # Uncomment and modify the following line with your image name.
-        # IMAGE_NAME: "<quay-username>/<repository-name>"
+        IMAGE_NAME: "yzou2020/tni-hub-image"
 
     # Lets us monitor disks getting full as images get bigger over time
     - name: Show how much disk space is left
