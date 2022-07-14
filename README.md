@@ -1,3 +1,5 @@
+[![Docker Repository on Quay](https://quay.io/repository/yzou2020/tni-hub-image/status "Docker Repository on Quay")](https://quay.io/repository/yzou2020/tni-hub-image)
+
 # hub-user-image-template :paperclip:
 
 This is a template repository for creating dedicated user images for 2i2c hubs.
